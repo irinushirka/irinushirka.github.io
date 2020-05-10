@@ -1,0 +1,45 @@
+body, html{
+    background-image: url(../images/diary.jpg);
+    background-attachment: fixed;
+    background-size: 105%;
+    height: 100vh;
+    margin: 0;
+}
+
+.frame{
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    font-family: SimSun;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: -70px;
+}
+
+.options{
+    margin-left: -11%;
+}
+
+.b-btn{
+    margin: -7%;
+}
+
+.frame img{
+    width: 100%;
+    height: auto;
+}
+.title{
+    text-align: center;
+    font-size: 24px;
+}
+.published{
+    font-style: italic;
+    color: grey;
+    font-size: 14px;
+}
+
+.image{
+    text-align: center;
+}

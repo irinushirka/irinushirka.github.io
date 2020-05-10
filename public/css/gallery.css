@@ -1,0 +1,91 @@
+body, html{
+    background-image: url(../images/diary.jpg);
+    background-attachment: fixed;
+    background-size: 105%;
+    height: 100vh;
+    margin: 0;
+}
+.frame{
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    margin-top: -250px;
+}
+
+.add-photo-form{
+    font-family: SimSun;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+input[type=text]{
+    font-family: SimSun;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 25px;
+    width: 400px;
+    background: rgba(108, 235, 106, 0.1);
+    border-radius: 10px;
+}
+
+input[type=submit]{
+    font-family: SimSun;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px black;
+    background-color: rgba(214, 214, 214, 0.6);
+}
+
+input[type=text]:focus, input[type=submit]:focus{
+    outline: none;
+}
+
+input[type=submit]:hover{
+    background-color: rgba(54, 116, 53, 0.4);
+}
+
+.photo-frame{
+    display: block;
+    margin: 10px;
+}
+
+.photo-frame img {
+    border: 3px solid rgb(20, 88, 60, 0.7);
+    border-radius: 10px;
+    height: 200px;
+    width: auto;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+.delete-btn{
+    border: 2px rgb(255, 255, 255);
+    float: right;
+    border-radius: 15px;
+    background-color: rgba(108, 235, 106, 0.2);
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin-top: -10px;
+}
+
+.delete-btn:hover{
+    background-color: rgba(97, 145, 97, 0.8);
+}
+
+.delete-btn a{
+    font-family: SimSun;
+    font-style: normal;
+    font-weight: normal;    
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}

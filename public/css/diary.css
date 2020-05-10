@@ -1,0 +1,296 @@
+body, html{
+    background-image: url(../images/diary.jpg);
+    background-attachment: fixed;
+    background-size: 105%;
+    height: 100vh;
+    margin: 0;
+}
+
+.frame{
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    margin-top: -160px;
+}
+
+.post-frame{
+    position: relative;
+    float: left;
+    height: 60%;
+    width: 70%;
+    margin: 0;
+    background-color: rgba(228, 228, 229, 0.7);
+}
+
+.add-article-btn{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 55%;
+    margin-right: 5%;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+}
+
+.add-article-btn:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.add-article-btn a{
+    font-family: SimSun;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+}
+.sub-menu-frame{
+    position: relative;
+    display: flex;
+    float: right;
+    height: auto;
+    width: 25%;
+    margin: 0;
+    background-color: rgba(218, 218, 218, 1);
+}
+
+.post-frame{
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+    height: auto;
+    padding-bottom: 20px;
+    z-index: 5;
+}
+
+.post-frame h2{
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+    text-align: center;
+    white-space: nowrap;
+
+    font-family: SimSun;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.post-frame h2:before, .post-frame h2:after{
+    content: '';
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    height: 1px;
+    vertical-align: middle;
+    background: black;
+    box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.8);
+}
+
+.post-frame h2:before {
+    left: -20px;
+    margin-right: 10px;
+}
+.post-frame h2:after {
+    right: -20px;
+    margin-left: 10px;
+}
+.post-frame img {
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-bottom: 30px;
+}
+.read-more-btn{
+    position: relative;
+    width: 100%;
+}
+.read-more-btn a{
+    font-family: SimSun;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #984242;   
+}
+
+.read-more-btn a:hover{
+    color: #b88888; 
+}
+.b-btn[id=readmore]{
+    background-color: transparent;
+}
+.b-btn[id=readmore]:hover{
+    background-color: transparent;
+    color: #984242;  
+}
+.b-btn{
+    font-family: SimSun;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    position: relative;
+    display: inline;
+
+    margin-left: 10%;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(135, 202, 144, 0.5);
+    
+}
+.b-btn:hover{
+    background-color: rgba(196, 196, 196, 0.7);
+}
+.b-btn a{
+    line-height: 30px;
+    margin-right: 40px;
+}
+
+.article-preview{
+    position: relative;
+    align-content: center;
+    width: 86%;
+    margin-left: 7%;
+}
+.article-preview p{
+    font-family: SimSun;
+    font-style: normal;
+    font-weight: normal;
+    text-indent: 30px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.year-articles {
+    position: relative;
+    align-content: center;
+    width: 90%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.year-articles h3{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    margin-left: 30px;
+    font-family: SimSun;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.year-articles h3:before, .year-articles h3:after{
+    content: '';
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    height: 1px;
+    vertical-align: middle;
+    background: black;
+    box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.8);
+}
+
+.year-articles h3:before {
+    left: -10px;
+    margin-right: 10px;
+}
+.year-articles h3:after {
+    right: -10px;
+    margin-left: 10px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.more-articles {
+    list-style-type: circle; /* Убираем маркеры */
+    font-family: SimSun;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 5px;
+}
+
+.create-form{
+    position: relative;
+    height: 100%;
+    width: 1000px;
+    font-family: SimSun;
+    font-style: normal;
+}
+.create-form h1{
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 15px 15px 15px rgba(224, 135, 115, 0.366);
+    font-size: 42px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+.create-form form{
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.create-form form label {
+    display: block;
+    font-size: 32px;
+    line-height: 60px;
+}
+
+.create-form form input, textarea{
+    font-family: SimSun;
+    font-style: normal;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+.create-form form input:focus, textarea:focus{
+    outline: none;
+}
+textarea{
+    background-color: rgba(226, 199, 189, 0.5);
+}
+.create-form form input[id=header]{
+    background-color: rgba(226, 199, 189, 0.5);
+    height: 24px;
+}
+.create-form form input[id=body]{
+    text-align: left;
+    background-color: rgba(226, 199, 189, 0.5);
+    height: 300px;
+    width: 100%;
+}
+.create-form form input[type=submit]{
+    width: 100px;
+    height: 80px;
+}
+.diary-links{
+    position: relative;
+    display: block;
+    height: 100px;
+    width: 500px;
+}
+ul .pagination{
+    z-index: 0;
+}
+.diary-links ul {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 5px; /* Значение полей */
+   }
+.diary-links ul li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    background-color: rgba(218, 218, 218, 0.5);
+    padding: 3px; /* Поля вокруг текста */
+    font-family: SimSun;
+    font-style: normal;
+    font-size: 25px;
+   }

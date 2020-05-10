@@ -1,0 +1,197 @@
+body, html{
+    background-image: url(../images/bg.jpg);
+    background-size: 100%;
+    margin: 0;
+}
+.title {
+    font-family: SimSun;
+    font-weight: 300;
+    color: black;
+    text-shadow: 15px 5px 5px rgba(224, 135, 115, 0.366);
+    font-size: 90px;
+    text-decoration: none;
+}
+.flex-center {
+    /*align-items: center;*/
+    display: flex;
+    justify-content: center;
+}
+.m-b-md {
+    margin-top: 70px;
+}
+.links{
+    width: 100%;
+    height: 20%;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.links input{
+    display: none;
+}
+.links label {
+    float: left;
+    margin-left: 48px;
+    text-align: center;
+    width: 30%;
+    display: flex;
+    border-radius: 3px;
+    border: 2px solid rgb(173, 170, 168);
+    background-color: rgba(255, 255, 255, 0.479);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .17);
+    
+    cursor: pointer;
+    
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.links label:hover{
+    background-color: rgba(199, 2, 2, 0.068);
+}
+#loginlabel, #registerlabel{
+    display:block; width:x; height:y; text-align:center;
+}
+.links input:checked + label {
+    background: rgba(119, 119, 119, 0.3);
+    box-shadow: inset 0 3px 3px rgba(0, 0, 0, .2);
+}
+.input-place{
+    text-align: center;
+}
+
+/*Form withlogin or register*/
+form {
+    width: 83%;
+    margin-top: -20px;
+    margin-left: 50px;
+    /*border: 2px solid rgb(173, 170, 168);
+    border-radius: 5px;
+    background-color: rgba(240, 240, 240, 0.61);*/
+}
+.form-group {
+    width: 100%;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.form-group label{
+    width: 100%;
+    margin-left: 45px;
+}
+
+.form-group input[type="text"]{
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    
+    font-weight: normal;
+    z-index: 2;
+    background: none;
+    border: 1px solid #4D4A4A;
+    background-color: rgba(73, 72, 71, 0.248);
+    box-sizing: border-box;
+    outline: none;
+    box-shadow: 1px 1px 3px #303030;
+}
+.form-group input[type="email"]{
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    
+    font-weight: normal;
+    z-index: 2;
+    background: none;
+    border: 1px solid #4D4A4A;
+    background-color: rgba(73, 72, 71, 0.248);
+    box-sizing: border-box;
+    outline: none;
+    box-shadow: 1px 1px 3px #303030;
+}
+.form-group input[type="password"]{
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    
+    font-weight: normal;
+    z-index: 2;
+    background: none;
+    border: 1px solid #4D4A4A;
+    background-color: rgba(73, 72, 71, 0.248);
+    box-sizing: border-box;
+    outline: none;
+    box-shadow: 1px 1px 3px #303030;
+}
+.form-group button[type=submit]{
+    margin-top: 10px;
+    height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    color: black;
+    font-size: 22px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    outline: none;
+}
+.form-group input[type="checkbox"]{
+    display: block;
+    float: left;
+    margin-left: 45px;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    
+    font-weight: normal;
+    background: none;
+    border: 1px solid #4D4A4A;
+    background-color: rgba(73, 72, 71, 0.248);
+    box-sizing: border-box;
+    outline: none;
+    box-shadow: 1px 1px 3px #303030;
+}
+.form-group label[for="remember"]{
+    margin-left: 5px;
+}
+.form-group button[type=submit]:hover{
+    background-color: rgba(199, 2, 2, 0.068);
+}
+
+.forget-pass{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    margin-top: 30px;
+    text-align: center;
+}
+.invalid-feedback{
+    font-size: 14px;
+    color: rgb(112, 15, 15);
+}

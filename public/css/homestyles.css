@@ -1,0 +1,46 @@
+html, body {
+    background-image: url(../images/bg.jpg);
+    background-size: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-family: SimSun;
+    font-weight: 300;
+    text-shadow: 15px 5px 5px rgba(224, 135, 115, 0.366);
+    font-size: 120px;
+}
+.links{
+    margin-left: 130px;
+    margin-bottom: 200px;
+}
+.links > a {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    padding: 5px 50px 10px;
+    border: 2px solid rgb(173, 170, 168);
+    background-color: rgba(231, 204, 186, 0.237);
+    text-decoration: none;
+}
+
+.links > a:hover{
+    background-color: rgba(150, 150, 150, 0.237);
+}
+
+.m-b-md {
+    margin-bottom: 100px;
+}

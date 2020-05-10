@@ -1,0 +1,111 @@
+body, html{
+    background-image: url(../images/bg.jpg);
+    background-size: 105%;
+    height: 100vh;
+    margin: 0;
+}
+.menu-wrapper{
+    display: table;
+    position: relative;
+    width: 105%;
+    height: 75px;
+    margin: 0px;
+    background-color: rgba(104, 149, 0, 0.2);
+    backdrop-filter: blur(8px);
+    margin-left: -50px;
+}
+.menu li{
+    display: block;
+    position: relative;
+    margin: 0px;
+    width: 16.66%;
+    line-height: 75px;
+    height: 75px;
+
+    display: block;
+    float: left;
+    align-items: center;
+    text-align: center;
+
+    margin:0;
+}
+.menu li a{
+    width: 171.429px;
+    height: 75px;
+    text-decoration: none;
+    font-family: SimSun;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: black;
+    margin: 0;
+}
+.menu li:hover{
+    height: 70px;
+    line-height: 75px;
+    border-bottom: 5px solid rgba(140, 140, 140, 0.7);
+}
+.content{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.title {
+    text-align: center;
+    margin-left: 200px;
+    font-family: SimSun;
+    font-weight: 300;
+    text-shadow: 15px 5px 5px rgba(224, 135, 115, 0.366);
+    font-size: 120px;
+    margin-right: 100px;
+}
+.full-height {
+    height: 100vh;
+}
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.m-b-md {
+    margin-bottom: 500px;
+}
+.line{
+    position: absolute;
+    left: 30%;
+    right: 24%;
+    top: 45%;
+    bottom: 70%;
+    border: 2px solid #8D8C8C;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.add-info{
+    position: absolute;
+}
+.add-info ul li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+}
+.add-info ul li a:hover{
+    color: white;
+}
+.add-info ul li{
+    margin-bottom: 150px;
+    float: left;
+    padding: 20px;
+    list-style-type: none;
+    font-family: SimSun;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 100px;
+    /* or 417% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+}
